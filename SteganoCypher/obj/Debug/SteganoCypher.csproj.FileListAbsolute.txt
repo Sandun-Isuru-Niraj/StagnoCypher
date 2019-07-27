@@ -8,3 +8,13 @@ C:\Users\sandu\source\repos\SteganoCypher\SteganoCypher\obj\Debug\SteganoCypher.
 C:\Users\sandu\source\repos\SteganoCypher\SteganoCypher\obj\Debug\SteganoCypher.exe
 C:\Users\sandu\source\repos\SteganoCypher\SteganoCypher\obj\Debug\SteganoCypher.pdb
 C:\Users\sandu\source\repos\SteganoCypher\SteganoCypher\obj\Debug\SteganoCypher.AboutBox1.resources
+C:\Users\sandu\source\repos\StagnoCypher\SteganoCypher\bin\Debug\SteganoCypher.exe.config
+C:\Users\sandu\source\repos\StagnoCypher\SteganoCypher\bin\Debug\SteganoCypher.exe
+C:\Users\sandu\source\repos\StagnoCypher\SteganoCypher\bin\Debug\SteganoCypher.pdb
+C:\Users\sandu\source\repos\StagnoCypher\SteganoCypher\obj\Debug\SteganoCypher.AboutBox1.resources
+C:\Users\sandu\source\repos\StagnoCypher\SteganoCypher\obj\Debug\SteganoCypher.Form1.resources
+C:\Users\sandu\source\repos\StagnoCypher\SteganoCypher\obj\Debug\SteganoCypher.Properties.Resources.resources
+C:\Users\sandu\source\repos\StagnoCypher\SteganoCypher\obj\Debug\SteganoCypher.csproj.GenerateResource.cache
+C:\Users\sandu\source\repos\StagnoCypher\SteganoCypher\obj\Debug\SteganoCypher.csproj.CoreCompileInputs.cache
+C:\Users\sandu\source\repos\StagnoCypher\SteganoCypher\obj\Debug\SteganoCypher.exe
+C:\Users\sandu\source\repos\StagnoCypher\SteganoCypher\obj\Debug\SteganoCypher.pdb

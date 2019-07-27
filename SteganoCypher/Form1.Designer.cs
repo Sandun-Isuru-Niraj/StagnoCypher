@@ -44,9 +44,9 @@
             this.saveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.image = new System.Windows.Forms.PictureBox();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.image = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.menuStrip1.SuspendLayout();
@@ -101,6 +101,7 @@
             // 
             this.txt_password.Location = new System.Drawing.Point(161, 125);
             this.txt_password.Name = "txt_password";
+            this.txt_password.PasswordChar = '•';
             this.txt_password.Size = new System.Drawing.Size(154, 20);
             this.txt_password.TabIndex = 2;
             // 
@@ -145,9 +146,10 @@
             // 
             // txt_decryptPassword
             // 
-            this.txt_decryptPassword.Location = new System.Drawing.Point(14, 45);
+            this.txt_decryptPassword.Location = new System.Drawing.Point(17, 45);
             this.txt_decryptPassword.Name = "txt_decryptPassword";
-            this.txt_decryptPassword.Size = new System.Drawing.Size(300, 20);
+            this.txt_decryptPassword.PasswordChar = '•';
+            this.txt_decryptPassword.Size = new System.Drawing.Size(302, 20);
             this.txt_decryptPassword.TabIndex = 10;
             // 
             // button1
@@ -198,6 +200,20 @@
             this.menuToolStripMenuItem.Size = new System.Drawing.Size(50, 20);
             this.menuToolStripMenuItem.Text = "Menu";
             // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.aboutToolStripMenuItem.Text = "About";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
+            // 
             // image
             // 
             this.image.Image = global::SteganoCypher.Properties.Resources.Untitled_1;
@@ -210,22 +226,9 @@
             this.image.TabStop = false;
             this.image.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // aboutToolStripMenuItem
-            // 
-            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.aboutToolStripMenuItem.Text = "About";
-            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
-            // 
-            // exitToolStripMenuItem
-            // 
-            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
-            // 
             // Form1
             // 
+            this.AllowDrop = true;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(694, 501);

@@ -28,7 +28,7 @@ namespace SteganoCypher
         {
             OpenFileDialog open = new OpenFileDialog();
 
-            open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp)|*.jpg; *.jpeg; *.gif; *.bmp";
+            open.Filter = "Image Files(*.jpg; *.jpeg; *.gif; *.bmp; *.png)|*.jpg; *.jpeg; *.gif; *.bmp; *.png";
             if (open.ShowDialog() == DialogResult.OK)
             {
                 imageToEncrypt = open.FileName;
@@ -84,13 +84,25 @@ namespace SteganoCypher
                         saveFileDialog.CheckFileExists = false;
                         saveFileDialog.CheckPathExists = true;
                         saveFileDialog.DefaultExt = "bmp";
-                        saveFileDialog.Filter = "Bitmap Images (*.bmp)|*.bmp|All files (*.*)|*.*";
+                        saveFileDialog.Filter = "Bitmap Images (*.bmp)|*.bmp | PNG Image (*.png)|*.png | All files (*.*)|*.*";
                         saveFileDialog.FilterIndex = 2;
                         saveFileDialog.RestoreDirectory = true;
                         if (saveFileDialog.ShowDialog() == DialogResult.OK)
                         {
                             imageThatEncrypted = saveFileDialog.FileName;
-                            imageWithHiddenData.Save(imageThatEncrypted);
+
+                            if(saveFileDialog.FilterIndex == 1)
+                            {
+                                imageWithHiddenData.Save(imageThatEncrypted, System.Drawing.Imaging.ImageFormat.Bmp);
+                            }
+                            else if (saveFileDialog.FilterIndex == 2)
+                            {
+                                imageWithHiddenData.Save(imageThatEncrypted, System.Drawing.Imaging.ImageFormat.Png);
+                            }
+                            else
+                            {
+                                imageWithHiddenData.Save(imageThatEncrypted, System.Drawing.Imaging.ImageFormat.Bmp);
+                            }
 
                             MessageBox.Show("Your Text is Hidden inside the Image");
                         }
