@@ -1,10 +1,10 @@
 # Steganographic Text Encryption Application
 
- [1. Introduction to Steganography](#introduction-to-steganographya)
- [2. Methodology](#methodology)
- [3. Algorithm](#algorithm)
- [4. How it works](#how-it-works)
- [5.  References](#references)
+ 1. [Introduction to Steganography](#introduction-to-steganographya)
+ 2. [Methodology](#methodology)
+ 3. [Algorithm](#algorithm)
+ 4. [How it works](#how-it-works)
+ 5. [References](#references)
 
 ### Introduction to Steganographya
 The Starting of the Multimedia data in our electronic world, communicating the information without detecting the secret messages is concealed massively. In that case cryptography and Steganography is came to the ground for facing that types of problems in advance. Steganography is the art of hiding information in ways that prevent the detection of hid-den messages. Steganography, derived from Greek, literally means “covered writing.” It includes a vast array of secret communications methods that conceal the message’s very existence. These methods include invisible inks, microdots, character arrangement, digital signatures, covert channels, and spread spectrum communications. Steganography and cryptography are cousins in the spy craft family. Cryptography scrambles a message so it cannot be understood. Steganography hides the message so it cannot be seen. A message in ciphertext, for instance, might arouse suspicion on the part of the recipient while an “invisible” message created with steganographic methods will not.
