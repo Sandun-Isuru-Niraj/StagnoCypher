@@ -1,6 +1,12 @@
 # Steganographic Text Encryption Application
 
-### Introduction to Steganography
+ 1. Introduction to Steganography
+ 2. Methodology
+ 3. Algorithm
+ 4. How it works
+ 5.  References
+
+### Introduction to Steganographya
 The Starting of the Multimedia data in our electronic world, communicating the information without detecting the secret messages is concealed massively. In that case cryptography and Steganography is came to the ground for facing that types of problems in advance. Steganography is the art of hiding information in ways that prevent the detection of hid-den messages. Steganography, derived from Greek, literally means “covered writing.” It includes a vast array of secret communications methods that conceal the message’s very existence. These methods include invisible inks, microdots, character arrangement, digital signatures, covert channels, and spread spectrum communications. Steganography and cryptography are cousins in the spy craft family. Cryptography scrambles a message so it cannot be understood. Steganography hides the message so it cannot be seen. A message in ciphertext, for instance, might arouse suspicion on the part of the recipient while an “invisible” message created with steganographic methods will not.
 In the Steganography, we are doing the embedding the information within the image, thus anyone cannot be understanding the hidden message at a glance. And anyone won’t be suspicious about general image without any connection to the secret message. There are many applications for techniques that embed information within digital images. The dispatch  of hidden messages is an obvious function, but today’s technology stimulates even more subtle uses. In-band captioning, such as movie subtitles, is one such use where textual information can be embedded  within the image. The ability to deposit  image creation and  revision information within the  image  provides a form of revision tracking as another possible application of digital steganography. This  avoids  the  need  for  maintaining two  separate  media,  one  containing  the  image  itself  and  one containing the revision data.
 
